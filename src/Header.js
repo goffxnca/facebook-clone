@@ -14,7 +14,7 @@ import ExpandMore from "@material-ui/icons/ExpandMore";
 
 function Header() {
   return (
-    <div class="header">
+    <div className="header">
       <div className="header_left">
         <img
           src="https://seeklogo.com/images/F/facebook-new-2019-logo-5A4671100B-seeklogo.com.png"
@@ -22,11 +22,11 @@ function Header() {
         />
         <div className="header_input">
           <SearchIcon />
-          <input type="text" />
+          <input type="text" placeholder="Search Facebook" />
         </div>
       </div>
       <div className="header_center">
-        <div className="header_option">
+        <div className="header_option header_option--active">
           <HomeIcon fontSize="large" />
         </div>
         <div className="header_option">
