@@ -1,0 +1,32 @@
+.messagePoster {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-top: 30px;
+  width: 100%;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+
+.messagePoster_top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding: 15px;
+}
+
+.messagePoster_top > form {
+  display: flex;
+  flex: 1;
+}
+.messagePoster_top > form > input {
+  border: none;
+  outline-width: 0;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  border-radius: 20px;
+  background-color: #eff2f5;
+}
+
+.messagePoster_top > form > button {
+  display: none;
+}
