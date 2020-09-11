@@ -24,7 +24,7 @@ function Feed() {
         profilePic="https://scontent.fbkk8-4.fna.fbcdn.net/v/t1.0-1/cp0/p40x40/101798024_3122663904420377_4934010690141160074_o.jpg?_nc_cat=100&_nc_sid=7206a8&_nc_ohc=TfWB2k1Pi40AX9DiJz3&_nc_ht=scontent.fbkk8-4.fna&oh=d2cd5553739d1453ca7b71834717a907&oe=5F80CF51"
         name="Zara Judge"
         timestamp="Now"
-        image="https://cdn.pixabay.com/photo/2016/11/08/05/15/buffalo-1807517_960_720.jpg"
+        image="https://cdn.pixabay.com/photo/2019/09/17/14/48/street-4483722_960_720.jpg"
         message="Amazing Vibe!!"
       />
     </div>

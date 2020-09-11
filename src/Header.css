@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 15px 20px;
+  padding: 7px 20px;
   justify-content: space-between;
   position: sticky !important;
   background-color: transparent !important;
@@ -31,6 +31,10 @@
   border: none;
   background-color: transparent;
   outline-width: 0;
+}
+
+.header_input > .MuiSvgIcon-root {
+  color: gray;
 }
 
 .header_center {
