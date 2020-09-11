@@ -30,3 +30,31 @@
 .messagePoster_top > form > button {
   display: none;
 }
+
+.messagePoster_input {
+  flex: 1;
+}
+
+.messagePoster_bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messagePoster_option {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
+.messagePoster_option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.messagePoster_option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+  cursor: pointer;
+}
