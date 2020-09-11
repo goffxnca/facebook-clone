@@ -4,7 +4,6 @@ import SidebarRow from "./SidebarRow";
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags";
 import PeopleIcon from "@material-ui/icons/People";
 import ChatIcon from "@material-ui/icons/Chat";
-import MarketplaceIcon from "@material-ui/icons/Shop";
 import VideoLibrary from "@material-ui/icons/VideoLibrary";
 import AddBoxIcon from "@material-ui/icons/AddBox";
 import KeyboardArrowDown from "@material-ui/icons/KeyboardArrowDown";
