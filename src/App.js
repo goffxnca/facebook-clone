@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Feed from "./Feed";
 import Widgets from "./Widgets";
 import Login from "./Login";
+import { useCustomState } from "./StateProvider";
 
 function App() {
-  const user = null;
+  const [{ user }, dispatch] = useCustomState();
 
   return (
     <div className="app">
@@ -21,6 +22,7 @@ function App() {
             <Sidebar />
             <Feed />
             <Widgets />
+            <p>{user.displayName}</p>
           </div>
         </>
       )}

@@ -7,13 +7,16 @@ import ChatIcon from "@material-ui/icons/Chat";
 import VideoLibrary from "@material-ui/icons/VideoLibrary";
 import AddBoxIcon from "@material-ui/icons/AddBox";
 import KeyboardArrowDown from "@material-ui/icons/KeyboardArrowDown";
+import { useCustomState } from "./StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useCustomState();
+
   return (
     <div className="sidebar">
       <SidebarRow
         src="https://scontent.fbkk8-2.fna.fbcdn.net/v/t1.0-1/cp0/p86x86/92457991_124781502476020_3148313974039117824_o.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_ohc=kC4-wbiICKwAX81XeuZ&_nc_ht=scontent.fbkk8-2.fna&oh=1140e5aab5245f5f6b0c35a2b45714cd&oe=5F80B602"
-        title="Goff Lee"
+        title={user.displayName}
       />
       <SidebarRow Icon={AddBoxIcon} title="Covid19 Information Center" />
       <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
