@@ -22,7 +22,6 @@ function App() {
             <Sidebar />
             <Feed />
             <Widgets />
-            <p>{user.displayName}</p>
           </div>
         </>
       )}
