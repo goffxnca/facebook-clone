@@ -5,5 +5,8 @@
 .app_body {
   display: flex;
   background-color: #f0f2f5;
-  justify-content: center;
+  justify-content: space-between;
+  /* min-width: 654px; */
 }
+
+/* 654 start scrolling */

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./MessagePoster.css";
-import { Avatar } from "@material-ui/core";
+import { Avatar, Button } from "@material-ui/core";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoIcon from "@material-ui/icons/Photo";
 import InsertEmoticon from "@material-ui/icons/InsertEmoticon";
@@ -15,6 +15,8 @@ function MessagePoster() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!input) return;
 
     // connect to db
     db.collection("posts").add({
@@ -45,23 +47,23 @@ function MessagePoster() {
             value={imageUrl}
             onChange={(e) => setImageUrl(e.target.value)}
           />
-          <button type="submit" onClick={handleSubmit}>
-            Submit
-          </button>
+          <Button type="submit" size="small" onClick={handleSubmit}>
+            Post
+          </Button>
         </form>
       </div>
       <div className="messagePoster_bottom">
         <div className="messagePoster_option">
           <VideocamIcon style={{ color: "red" }} />
-          <h3>Live Video</h3>
+          <h4>Live Video</h4>
         </div>
         <div className="messagePoster_option">
           <PhotoIcon style={{ color: "green" }} />
-          <h3>Photo/Video</h3>
+          <h4>Photo/Video</h4>
         </div>
         <div className="messagePoster_option">
           <InsertEmoticon style={{ color: "orange" }} />
-          <h3>Feeling/Activity</h3>
+          <h4>Feeling/Activity</h4>
         </div>
       </div>
     </div>
