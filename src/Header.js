@@ -49,8 +49,8 @@ function Header() {
 
       <div className="header_right">
         <div className="header_info">
-          <Avatar src={user.photoURL} />
-          <h4>{user.displayName}</h4>
+          <Avatar src={user.photoURL} style={{ height: 33, width: 33 }} />
+          <span>{user.displayName}</span>
         </div>
 
         <IconButton>
