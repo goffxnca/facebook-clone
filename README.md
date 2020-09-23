@@ -2,18 +2,19 @@
 
 ## Project Description
 
-The objective of this project is to build a minimal responsive facebook clone version come with the following features:
+The objective of this project is to build a facebook clone with the following features:
 
-- Register new account
 - User authentication with Google account
 - Writing posts and comments (text & image)
 - Liking posts and comments
 - Sending / accepting / canceling friend requests
 - Notifications for new friend request.
+- Full Responsive features fit to all screen size
 
 ## 🖼️ Screenshot
 
-![FaceBook Clone Screenshot](./docs/facebook-clone-animate.gif)
+![Facebook Clone Screenshot](./docs/facebook-clone-gif1.gif)
+![Facebook Clone Screenshot](./docs/facebook-clone-gif2.gif)
 
 ## 🌐 [Live Preview](https://facebook-clone-52490.firebaseapp.com/)
 

@@ -12,7 +12,7 @@
   transition: transform 100ms ease-in;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
   .story:nth-child(n + 4) {
     display: none;
   }
