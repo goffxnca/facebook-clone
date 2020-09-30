@@ -1,14 +1,12 @@
-# FACEBOOK CLONE
+# React Facebook clone
 
 ## Project Description
 
-The objective of this project is to build a facebook clone with the following features:
+The objective of this project is to build a React Facebook clone with the following features:
 
 - User authentication with Google account
-- Writing posts and comments (text & image)
-- Liking posts and comments
-- Sending / accepting / canceling friend requests
-- Notifications for new friend request.
+- Writing facebook post message with image URL
+- Show Facebook stories, Posted messages
 - Full Responsive features fit to all screen size
 
 ## 🖼️ Screenshot
@@ -24,14 +22,18 @@ In this project we used:
 
 - React 16.3.1
 - HTML5 and CSS3
-- MaterialUI
-- Firebase
+- MaterialUI (for icon)
+- Firebase (for hosting & realtime database)
 
 ## 🧾 TODO
 
+- Add Image uploader in stead of putting image url in textbox
+- Add animation when message is posted or when list of post changed
 - Liking posts and comments
 - Sending / accepting / canceling friend requests
 - Notifications for new friend request.
+- Add Post lazy load
+- Connect to Facebook API
 
 ## 🤝 Contributing
 
